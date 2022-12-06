@@ -11,16 +11,33 @@
 </head>
 <body>
    <header>
-      <div class="container">
+      <div class="container container-sm container-md container-lg">
 
-        <div class="row align-items-center py-4 px-1">
-           <div class="col-9">
-              <p class="h4">START BOOTSTRAP</p>
+        <div class="row align-items-center py-4 px-1 py-md-3">
+           <div class="col-9 col-sm- col-md-5 col-lg-">
+              <p class="h5">START BOOTSTRAP</p>
            </div>
 
-           <div class="col-3 offset-0">
-             <nav class="nav-bar border border-3 rounded-2 px-2 py-1 border-white ">
-                <div class="pe-4">
+           <div class="col-3 col-sm- col-md-7 col-lg- offset-0">
+             <nav class="nav-bar px-2 py-1 border-white">
+
+                <div class="list-nav-bar d-none d-md-block">
+                   <ul class="list-nav-bar list-inline d-md-flex justify-content-md-end mb-md-0 font-monospace">
+                    <li>
+                      <a class=" px-md-3 text-decoration-none text-white" href="#portfolio">PORTFOLIO</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none text-white" href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a class="px-md-3  text-decoration-none text-white" href="#contact-me">
+                            CONTACT
+                        </a>
+                    </li>
+                   </ul>
+                </div>
+
+                <div class="pe-4 border border-3 rounded-2 d-md-none">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                     </svg>
@@ -35,16 +52,16 @@
    <main>
 
     <section id="who_I_am">
-        <div class="container text-center">
+        <div class="container container-sm container-md container-lg text-center">
 
             <div class="row row-cols-4 py-4 px-1 justify-content-center ">
                
                 <div class="col-12 my-1 ">
-                  immagine
+                  <img src="" alt="">
                 </div>
     
                <div class="col-12 my-1">
-                 ciao
+                 <h2>START BOOTSTRAP</h2>
                </div>
 
                <div class="col-12 my-1">
@@ -52,7 +69,17 @@
               </div>
 
               <div class="col-12 my-1">
-                ciao
+                <ul class="list-inline pt-md-2">
+                    <li class="list-inline-item ">
+                        <a class="text-white text-decoration-none" href="#">GRAPHIC ARTIST</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="text-white text-decoration-none" href="#">WEB DESIGNER</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="text-white text-decoration-none" href="#">ILLUSTRATOR</a>
+                    </li>
+                </ul>
               </div>
             
             </div>
@@ -63,21 +90,21 @@
     
     <section id="portfolio">
         <div class="container text-center">
-            <div class="row row-cols-4 py-4 px-1 justify-content-center ">
+            <div class="row row-cols-4 py-4 px-1  justify-content-center ">
                 <div class="col-11 my-1">
-                  portfolio
+                  <h4>PORTFOLIO</h4>
                 </div>
     
                 <div class="col-11 my-1">
                   ----stella----
                 </div>
 
-                <div class="col-11 my-1">
-                immagine house
+                <div class="col-11 col-md-5 my-1">
+                  <img class="img-fluid mw-100 img-thumbnail" src="img/cabin.png" alt="">
                 </div>
 
-               <div class="col-11 my-1">
-                immagine torta
+               <div class="col-11 col-md-5 my-1">
+                  <img class="img-fluid mw-100 img-thumbnail" src="img/cake.png" alt="">
                </div>
 
                <div class="col-11 my-1">
@@ -103,23 +130,23 @@
     <section id="about">
         <div class="container text-center">
             <div class="row row-cols-4 py-4 px-1 justify-content-center ">
-                <div class="col-10 my-1">
+                <div class="col-10 col-md-10 my-1">
                   about
                 </div>
     
-                <div class="col-10 my-1">
+                <div class="col-10 col-md-10 my-1">
                   ----stella----
                 </div>
 
-                <div class="col-10 my-1">
+                <div class="col-10 col-md-5 my-1">
                   paragrafo uno
                 </div>
 
-               <div class="col-10 my-1">
+               <div class="col-10 col-md-5 my-1">
                 paragrafo due
                </div>
 
-               <div class="col-10 my-1">
+               <div class="col-10 col-md-5 my-1">
                 button
                </div>
             </div>
@@ -128,59 +155,62 @@
     </section>
 
     <section id="contact-me">
-        <div class="container text-center">
+        <div class="container container-sm container-md container-lg">
             <div class="row row-cols-4 py-4 px-1 justify-content-center ">
                 <div class="col-9 my-1">
-                  contact me
+                   <h4 class="text-dark text-center">CONTACT ME</h4>
                 </div>
     
-                <div class="col-9 my-1">
+                <div class="col-9 my-1 text-center">
                   ----stella----
                 </div>
 
-                <div class="col-9 my-1">
+                <div class="col-9 col-md-5 my-1">
                   form
                 </div>
 
-               <div class="col-9 my-1">
+               <div class="col-9 col-md-10 my-1">
                  <hr>
                </div>
 
-               <div class="col-9 my-1">
-                button send
+               <div class="col-9  my-1 ">
+                  <button>
+                    <a href="#">Send</a>
+                  </button>
                </div>
             </div>
 
         </div>
     </section>
+
    </main>
 
    <footer>
     <section id="location">
         <div class="container text-center">
-            <div class="row row-cols-4 py-4 px-1 justify-content-center ">
-                <div class="col-9 my-1">
-                  location
+            <div class="row row-cols-4 row-cols-md-3  py-4 px-1  justify-content-center ">
+                <div class="col-9 my-1 order-md-0 bg-black">
+                  <p>LOCATION</p>
                 </div>
     
-                <div class="col-9 my-1">
-                  indirizzo
+                <div class="col-9 order-md-3 my-1  ">
+                   <p>2215 Jhon Danierl Drive Clarck, MO 54243</p>
                 </div>
 
-                <div class="col-9 my-1">
-                  around the web
+                <div class="col-9 order-md-1 my-1">
+                   <p>AROUND THE WEB</p>
                 </div>
 
-               <div class="col-9 my-1">
+               <div class="col-9 order-md-5 my-1">
                  icone
                </div>
 
-               <div class="col-9 my-1">
-                about freelancer
+               <div class="col-9 my-1 order-md-2 ">
+                  <p>ABOUT FREELANCER</p>
                </div>
 
-               <div class="col-9 my-1">
-                paragrafo
+               <div class="col-9 my-1 order-md-5 ">
+                  <P>Freelance is a free to use, oper source Bootstrap theme created by Start bootstrap.</P>
                </div>
             </div>
         </div>
@@ -190,12 +220,12 @@
         <div class="container text-center">
             <div class="row row-cols-4 py-4 px-1 justify-content-center ">
                 <div class="col-5 my-1">
-                 paragrafp
+                   <p>Copright your Website 2019</p>
                 </div>
             </div>
         </div>
     </section>
-    
+
    </footer>
    
    
