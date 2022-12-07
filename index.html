@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +11,11 @@
 </head>
 <body>
    <header>
-      <div class="container container-sm container-md container-lg">
+      <div class="container">
 
-        <div class="row align-items-center py-4 px-1 py-md-3">
+        <div class="row align-items-center py-2  py-md-3">
            <div class="col-9 col-sm- col-md-5 col-lg-">
-              <p class="h5">START BOOTSTRAP</p>
+              <p class="h6">START BOOTSTRAP</p>
            </div>
 
            <div class="col-3 col-sm- col-md-7 col-lg- offset-0">
@@ -24,23 +24,21 @@
                 <div class="list-nav-bar d-none d-md-block">
                    <ul class="list-nav-bar list-inline d-md-flex justify-content-md-end mb-md-0 font-monospace">
                     <li>
-                      <a class=" px-md-3 text-decoration-none text-white" href="#portfolio">PORTFOLIO</a>
+                      <a class=" px-md-3 text-decoration-none " href="#portfolio">PORTFOLIO</a>
                     </li>
                     <li>
-                        <a class="text-decoration-none text-white" href="#about">ABOUT</a>
+                        <a class="text-decoration-none " href="#about">ABOUT</a>
                     </li>
                     <li>
-                        <a class="px-md-3  text-decoration-none text-white" href="#contact-me">
+                        <a class="px-md-3  text-decoration-none" href="#contact-me">
                             CONTACT
                         </a>
                     </li>
                    </ul>
                 </div>
 
-                <div class="pe-4 border border-3 rounded-2 d-md-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                    </svg>
+                <div class=" border  border-2 rounded-2 d-md-none">
+                  <i class="bi bi-list h1"></i>
                 </div>  
              </nav>
            </div>
@@ -52,12 +50,12 @@
    <main>
 
     <section id="who_I_am">
-        <div class="container container-sm container-md container-lg text-center">
+        <div class="container text-center">
 
-            <div class="row row-cols-4 py-4 px-1 justify-content-center ">
+            <div class="row row-cols-4 py-2  justify-content-center ">
                
-                <div class="col-12 my-1 ">
-                  <img src="" alt="">
+                <div class="col-12 w-50 rounded-circle  my-1">
+                  <img class="w-md-50" src="img/avatar.svg" alt="profile">
                 </div>
     
                <div class="col-12 my-1">
@@ -65,19 +63,21 @@
                </div>
 
                <div class="col-12 my-1">
-                ciao
+                <span class="px-4 rounded border-top border-white border-4 d-inline-block mb-2"></span>
+                <i class="bi bi-star-fill h1 p-1 "></i>
+                <span class="px-4 rounded border-top border-white border-4 d-inline-block mb-2 w-15"></span>
               </div>
 
-              <div class="col-12 my-1">
-                <ul class="list-inline pt-md-2">
+              <div class="col-12 my-1 ">
+                <ul class="list-inline  pt-md-2 mylist">
                     <li class="list-inline-item ">
-                        <a class="text-white text-decoration-none" href="#">GRAPHIC ARTIST</a>
+                        <a class="text-decoration-none  " href="#">GRAPHIC ARTIST-</a>
                     </li>
-                    <li class="list-inline-item">
-                        <a class="text-white text-decoration-none" href="#">WEB DESIGNER</a>
+                    <li class="list-inline-item ">
+                        <a class="text-decoration-none" href="#">WEB DESIGNER -</a>
                     </li>
-                    <li class="list-inline-item">
-                        <a class="text-white text-decoration-none" href="#">ILLUSTRATOR</a>
+                    <li class="list-inline-item ">
+                        <a class="text-decoration-none" href="#">ILLUSTRATOR -</a>
                     </li>
                 </ul>
               </div>
@@ -88,39 +88,41 @@
           </div>
     </section>
     
-    <section id="portfolio">
+    <section id="portfolio" class="bg-white">
         <div class="container text-center">
             <div class="row row-cols-4 py-4 px-1  justify-content-center ">
                 <div class="col-11 my-1">
-                  <h4>PORTFOLIO</h4>
+                  <h4 class="text-black">PORTFOLIO</h4>
                 </div>
     
-                <div class="col-11 my-1">
-                  ----stella----
+                <div class="col-12 my-1">
+                  <span class=" px-4 rounded border-top border-dark border-4 d-inline-block mb-2"></span>
+                  <i class="text-dark bi bi-star-fill h1 p-1 "></i>
+                  <span class="border-dark  px-4 rounded border-top  border-4 d-inline-block mb-2 w-15"></span>
                 </div>
 
-                <div class="col-11 col-md-5 my-1">
-                  <img class="img-fluid mw-100 img-thumbnail" src="img/cabin.png" alt="">
+                <div class="col-12 col-md-5 mt-2 my-2">
+                  <img class="img-fluid rounded" src="img/cabin.png" alt="cabin">
                 </div>
 
-               <div class="col-11 col-md-5 my-1">
-                  <img class="img-fluid mw-100 img-thumbnail" src="img/cake.png" alt="">
+               <div class="col-12 col-md-5 my-2">
+                  <img class="img-fluid rounded " src="img/cake.png" alt="cake">
                </div>
 
-               <div class="col-11 my-1">
-                immagine circo
+               <div class="col-12 my-2">
+                <img class="img-fluid rounded " src="img/circus.png" alt="circus">
                </div>
 
-               <div class="col-11 my-1">
-                immagine games
+               <div class="col-12 my-2">
+                <img class="img-fluid rounded " src="img/game.png" alt="game">
                </div>
 
-               <div class="col-11 my-1">
-                immagine cassaforte
+               <div class="col-12 my-2">
+                <img class="img-fluid rounded " src="img/safe.png" alt="safe">
                </div>
 
-               <div class="col-11 my-1">
-                yellow submarine
+               <div class="col-12 my-2">
+                <img class="img-fluid rounded " src="img/submarine.png" alt="submarine">
                </div>
             </div>
 
@@ -131,23 +133,27 @@
         <div class="container text-center">
             <div class="row row-cols-4 py-4 px-1 justify-content-center ">
                 <div class="col-10 col-md-10 my-1">
-                  about
+                   <h6>ABOUT</h6>
                 </div>
     
                 <div class="col-10 col-md-10 my-1">
-                  ----stella----
+                  <span class="px-3 rounded border-top border-white border-4 d-inline-block mb-1"></span>
+                  <i class="bi bi-star-fill h5 p-1 "></i>
+                  <span class="px-3 rounded border-top border-white border-4 d-inline-block mb-1 w-15"></span>
                 </div>
 
-                <div class="col-10 col-md-5 my-1">
-                  paragrafo uno
+                <div class="col-9 col-md-5 my-2">
+                   <p class="text-start">Freelancer is a free bootstrap them created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and javaScript as well as optional LESS stylesheets for easy customization.</p>
                 </div>
 
-               <div class="col-10 col-md-5 my-1">
-                paragrafo due
+               <div class="col-9 col-md-5 my-1">
+                  <p class="text-start">Whether your're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking toshare your projects, this tamplate is the perfect starting point!</p>
                </div>
 
                <div class="col-10 col-md-5 my-1">
-                button
+                <button type="button" class="btn btn-outline-light">
+                  <a class="text-decoration-none" href="#">Download</a>
+                </button>
                </div>
             </div>
 
@@ -155,31 +161,34 @@
     </section>
 
     <section id="contact-me">
-        <div class="container container-sm container-md container-lg">
-            <div class="row row-cols-4 py-4 px-1 justify-content-center ">
+        <div class="container">
+            <div class="row py-4 px-1 justify-content-center">
                 <div class="col-9 my-1">
                    <h4 class="text-dark text-center">CONTACT ME</h4>
                 </div>
     
                 <div class="col-9 my-1 text-center">
-                  ----stella----
+                  <span class=" px-3 rounded border-top border-dark border-4 d-inline-block mb-2"></span>
+                     <i class="text-dark bi bi-star-fill h2 p-1 "></i>
+                  <span class="border-dark  px-3 rounded border-top  border-4 d-inline-block mb-2 w-15"></span>
+                </div>
                 </div>
 
-                <div class="col-9 col-md-5 my-1">
-                  form
+                <div class="col-9 col-md-5 my-1 offset-2">
+                   <form action="http://127.0.0.1:5500/index.html" method="get" >
+                      <label for="Name" class="label">Name</label>
+                      <input type="text" class="name d-block" id="Name">
+                      <label for="Email" class="label">Email</label>
+                      <input type="email" class="mail d-block" id="Email">
+                      <label for="number" class="label">Phone Number</label>
+                      <input type="number" class="number d-block" id="number">
+                      <label for="message" class="label">Message</label>
+                      <textarea class="border-0 border-bottom offset-0" name="message" id="message" cols="30" rows="5"> </textarea>
+                      <input class="btn btn-outline-light mybtn" type="submit" value="Send">
+                      <a href="#">Send</a>
+                   </form>
                 </div>
-
-               <div class="col-9 col-md-10 my-1">
-                 <hr>
-               </div>
-
-               <div class="col-9  my-1 ">
-                  <button>
-                    <a href="#">Send</a>
-                  </button>
-               </div>
             </div>
-
         </div>
     </section>
 
@@ -187,30 +196,25 @@
 
    <footer>
     <section id="location">
-        <div class="container text-center">
-            <div class="row row-cols-4 row-cols-md-3  py-4 px-1  justify-content-center ">
-                <div class="col-9 my-1 order-md-0 bg-black">
+        <div class="container text-center mt-4">
+            <div class="row row-cols-4 row-cols-md-3 py-4 px-1  justify-content-center ">
+                <div class="col-12 ">
                   <p>LOCATION</p>
+                  <p class="">2215 Jhon Danierl Drive Clarck, MO 54243</p>
                 </div>
     
-                <div class="col-9 order-md-3 my-1  ">
-                   <p>2215 Jhon Danierl Drive Clarck, MO 54243</p>
-                </div>
-
-                <div class="col-9 order-md-1 my-1">
+              
+                <div class="col-12  my-1 p-3">
                    <p>AROUND THE WEB</p>
+                   <i class="bi bi-facebook border rounded-circle p-2 me-1"></i>
+                   <i class="bi bi-google border rounded-circle p-2 me-1"></i>
+                   <i class="bi bi-twitter border  rounded-circle p-2 me-1"></i>
+                   <i class="bi bi-instagram border  rounded-circle p-2 me-1"></i>
                 </div>
 
-               <div class="col-9 order-md-5 my-1">
-                 icone
-               </div>
-
-               <div class="col-9 my-1 order-md-2 ">
+               <div class="col-12 line- my-1  ">
                   <p>ABOUT FREELANCER</p>
-               </div>
-
-               <div class="col-9 my-1 order-md-5 ">
-                  <P>Freelance is a free to use, oper source Bootstrap theme created by Start bootstrap.</P>
+                  <P>Freelance is a free to use, oper source Bootstrap theme created by <a class="mycolor text-decoration-none" href="#">Start bootstrap.</a> </P>
                </div>
             </div>
         </div>
@@ -218,9 +222,9 @@
 
     <section id="copyright">
         <div class="container text-center">
-            <div class="row row-cols-4 py-4 px-1 justify-content-center ">
-                <div class="col-5 my-1">
-                   <p>Copright your Website 2019</p>
+            <div class="row py-4 px-1 justify-content-center ">
+                <div class="col-12 my-1">
+                   <p class="text-light">Copright your Website 2019</p>
                 </div>
             </div>
         </div>
