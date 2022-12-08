@@ -1,9 +1,10 @@
 /* VARIABILI PALETE */
 
 :root {
-    --bg-header:#2c3e50;
+    --bg-header:#3a546d;
     --color-text:white;
     --bg-who_i_am:#1abc9c;
+    --footer-bg-color:#2c3e50;
 }
 
  header, #location {
@@ -11,14 +12,23 @@
     color: var(--color-text);
 }
 
-.mycolor {
-    color: var(--bg-who_i_am);
+.bg-who-i-am  {
+     background-color: var(--bg-who_i_am);
 }
 
 #about {
     background-color: var(--bg-who_i_am);
     color: var(--color-text);
 }
+
+ .mytext {
+    font-size: 15px;
+    line-height: 0px;
+} 
+
+.paragraph {
+    font-size: 15px;
+} 
 
 .mybtn {
     background-color: var(--bg-who_i_am);
@@ -29,14 +39,26 @@
 }
 
 .mylist {
-    font-size: 13px;
+    font-size: 20px;
 }
 
 #who_I_am .container {
     background-color: var(--bg-who_i_am);
-    color: var(--color-text);
-    
+    color: var(--color-text);    
 }
+
+#copyright {
+    background-color: var(--footer-bg-color);
+}
+
+ .text-copyright {
+    font-size: 13px;  
+} 
+
+ .myicon {
+    font-size: 10px;
+} 
+
 
 @media (min-width:768px) {
     
