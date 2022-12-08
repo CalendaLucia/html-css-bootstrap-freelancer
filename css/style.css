@@ -14,6 +14,7 @@
 
 .bg-who-i-am  {
      background-color: var(--bg-who_i_am);
+     color: var(--color-text);
 }
 
 #about {
@@ -64,6 +65,10 @@
     
     .w-md-50 {
         width: 50% !important;
+    }
+
+    h6 {
+        font-size: 30px;
     }
 }
 
