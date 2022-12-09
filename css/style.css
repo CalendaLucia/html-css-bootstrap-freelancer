@@ -43,6 +43,11 @@
     color: var(--color-text);
 }
 
+* a:hover {
+    color: var(--color-text);
+}
+
+
 .mylist {
     font-size: 20px;
 }
@@ -70,6 +75,11 @@
 }
  .size {
     font-size: 14px;
+ }
+
+ .title {
+    font-size: 20px;
+    font-weight: bold;
  }
 
 @media (min-width:768px) {
