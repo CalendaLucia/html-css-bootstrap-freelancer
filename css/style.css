@@ -12,6 +12,18 @@
     color: var(--color-text);
 }
 
+.list-nav-bar a:hover {
+     color: var(--bg-who_i_am);
+}
+
+.mycolor {
+    background-color: var(--bg-who_i_am);
+}
+
+.bi-plus {
+    font-size: 150px;
+}
+
 .bg-who-i-am  {
      background-color: var(--bg-who_i_am);
      color: var(--color-text);
@@ -20,6 +32,12 @@
 .mycolor {
     color: var(--bg-who_i_am);
 }
+
+.overlay:hover .mycolor {
+   display: block;
+   cursor: pointer;
+}
+
 
 #about {
     background-color: var(--bg-who_i_am);
@@ -46,7 +64,6 @@
 * a:hover {
     color: var(--color-text);
 }
-
 
 .mylist {
     font-size: 20px;
@@ -81,6 +98,8 @@
     font-size: 20px;
     font-weight: bold;
  }
+
+
 
 @media (min-width:768px) {
     
