@@ -16,10 +16,20 @@
      color: var(--bg-who_i_am);
 }
 
-.mycolor {
-    background-color: var(--bg-who_i_am);
+.inner {
+    position: absolute;
+    top: 0;
+    left: 10;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: rgba(26, 188, 156, 0.9);
+    width: 95%;
 }
 
+.inner:hover {
+    opacity: 1;
+}
+ 
 .bi-plus {
     font-size: 150px;
 }
@@ -28,16 +38,6 @@
      background-color: var(--bg-who_i_am);
      color: var(--color-text);
 }
-
-.mycolor {
-    color: var(--bg-who_i_am);
-}
-
-.overlay:hover .mycolor {
-   display: block;
-   cursor: pointer;
-}
-
 
 #about {
     background-color: var(--bg-who_i_am);
@@ -116,7 +116,7 @@
 @media (min-width:1000px) {
     
    .title {
-    font-size: 60px;
+    font-size: 25px;
    }
 
    .text-black {
